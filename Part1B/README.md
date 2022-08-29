@@ -2,8 +2,9 @@
 1. The parameters passed into ```GENERATE_PRIME``` for ```p``` on line 84 was floor divided by 2.
 2. The parameters passed into ```GENERATE_PRIME``` for ```q``` on line 85 was also floor divided by 2.
 
-## ASSOCIATED TEXT FILES
+## ASSOCIATED FILES
 1. ```modulus.txt``` --> Contains the RSA modulus that I am officially submitting for Part 1b.
+2. ```updated_rsa.py``` --> Contains the updated ```rsa.py``` code for generating modulus from Part 1a.
 
 ## NOTES
 1. The size of the modulus is **155**.
