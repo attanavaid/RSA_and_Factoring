@@ -34,3 +34,10 @@
 1. Maximum recursion depth exceeded
       * **Solution:** Change the recursion limit on line 5 of ```rsa.py``` to a higher value than the initial input.
       * That is, change the line ```sys.setrecursionlimit(5000)``` to something like ```sys.setrecursionlimit(6500)``` until the error doesn't exist.
+
+## NOTES
+1. The python files were all _initially_ programmed and tested in Microsoft Visual Studio Code (VS Code).
+2. Installation of _big_ modules/softwares may be required to run some of the programs/files. We recommend running only the python file ```factoring.py``` if you do not want to install anything else. As all other programming files contain the same information.
+
+## AUTHORS
+_Atta-ur-Rheman Navaid-Munir_ and _Liam Dobbins_
