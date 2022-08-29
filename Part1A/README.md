@@ -38,14 +38,14 @@
     * Follows the RSA cryptosystem procedure step-by-step as described in section 31.7 (page 962) of the textbook. Prints out everything it calculated into the relevant text files.
 
 8. ```POPULATE_PRIMES1000()```
-    * Uses the "primes1000.txt" file provided during in-class assignment #9 to fill in the global array called "integerPrimes1000" with all prime numbers below 1000 by converting them from strings, formatting them, then converting them to integers to be easily used/accessed in for loops.
+    * Uses the ```primes1000.txt``` file provided during in-class assignment #9 to fill in the global array called ```integerPrimes1000``` with all prime numbers below 1000 by converting them from strings, formatting them, then converting them to integers to be easily used/accessed in for loops.
     
 9. ```ENCODE(m)```
     * Encodes the passed message using the encoding technique provided in the project description.
 
 ## POSSIBLE ERROR ENCOUNTERS:
 1. Maximum recursion depth exceeded
-    * **Solution:** Change the recursion limit on line 5 of rsa.py to a higher value than the initial input. That is, change the line ```sys.setrecursionlimit(5000)``` to something like ```sys.setrecursionlimit(6500)``` until the error doesn't exist.
+    * **Solution:** Change the recursion limit on line 5 of ```rsa.py``` to a higher value than the initial input. That is, change the line ```sys.setrecursionlimit(5000)``` to something like ```sys.setrecursionlimit(6500)``` until the error doesn't exist.
 
 ## NOTES 
 1. The python files were all programmed and tested in Microsoft Visual Studio Code (VS Code).
