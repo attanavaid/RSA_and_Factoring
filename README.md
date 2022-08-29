@@ -1,6 +1,9 @@
 # RSA and Factoring
 This repository contains number-theoretic algorithms used for RSA key generation and factoring,
-This project was for my Design and Analysis of Algorithms class at UMBC that I took in Spring 2022. This project received a grade of **135/140 (A+)**, Most parts were graded on the correctness and efficiency of algorithms and part 1b was graded on completion.
+
+This project was for my Design and Analysis of Algorithms class at UMBC that I took in Spring 2022. 
+
+This project received a grade of **135/140 (A+)**, most parts were graded on the correctness and efficiency of algorithms and part 1b was graded on completion.
 
 ## NOTES
 1. The python files were all _initially_ programmed and tested in Microsoft Visual Studio Code (VS Code).
